@@ -1,0 +1,52 @@
+.contactus-bg-container{
+    display: flex;
+    padding: 40px;
+    width: 80%;
+    margin-top: 10px;
+    padding-left: 0px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cotact-us-header{
+    font-size: 20px;
+    font-weight: 600;
+    /* margin: 0px; */
+    margin-bottom: 5px;
+}
+
+.contact-us-para{
+    /* margin: 0px; */
+    margin-bottom: 5px;
+}
+.input-wrapper {
+  position: relative;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 6px;
+  position: relative;
+  width: 300px;
+  margin: 10px;
+  line-height: 6ex;
+  padding-left: 10px;
+}
+
+label {
+  position: absolute;
+  top: 0.2ex;
+  z-index: 1;
+  left: 2em;
+  background-color: white;
+  padding: 0 5px;
+}
+
+.contact-us-img{
+    height: 250px;
+    width: 350px;
+}

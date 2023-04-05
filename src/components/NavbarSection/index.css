@@ -1,0 +1,49 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 8px 6px -6px #888888;
+  margin-bottom: 0%;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.tabs-cont {
+  margin: 0;
+  margin-top: 25px;
+}
+
+.list-cont {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.tab-select {
+  /* border-bottom: 3px solid #000000; */
+  text-decoration: underline 3px;
+  text-underline-offset: 12px;
+
+}
+
+.register-button {
+  height: 50%;
+  width: 120px;
+  margin-top: 25px;
+  margin-right: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #002550;
+  color: #ffffff;
+}
+

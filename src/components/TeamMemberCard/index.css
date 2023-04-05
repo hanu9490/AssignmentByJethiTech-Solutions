@@ -1,0 +1,46 @@
+.member-card-con {
+  margin: 10px;
+  margin-left: 0px;
+  box-shadow: 3px 1px 8px 1px #888888;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.member-card {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 40px;
+  margin: 0px;
+}
+
+.member-img {
+  width: 270px;
+  height: 220px;
+  border-radius: 8px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.member-card-header {
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.member-card-paragraph {
+  margin: 0px;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.member-card-button {
+    border: none;
+    color: blue;
+    background-color: #FFFFFF;
+    align-self: flex-end;
+}

@@ -1,0 +1,22 @@
+.blogs-bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #F2F4F6;
+  }
+  
+  .blogs-main-header {
+    font-size: 25px;
+    margin: 0px;
+    text-decoration: underline 3px;
+    text-underline-offset: 12px;
+  }
+  
+  .blogs-card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+  }

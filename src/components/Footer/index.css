@@ -1,0 +1,147 @@
+footer {
+    background-color: #002550;
+    padding: 20px 0;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+    color: white;
+  }
+  
+  .social-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+    
+  }
+  
+  .social-icons li {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .social-icons li:first-child {
+    margin-left: 0;
+  }
+  
+  .social-icons img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+  
+  .social-icons a:hover img {
+    opacity: 0.8;
+  }
+  
+  .footer-nav-header {
+    background-color:#002550;
+    padding: 20px 0;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .company-name {
+    font-size: 15px;
+    margin: 0;
+    color: white;
+  }
+  
+  .vertical-nav {
+    margin: 20px 0;
+  }
+  
+  .vertical-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .vertical-nav li {
+    margin: 10px 0;
+  }
+  
+  .vertical-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .vertical-nav a:hover {
+    color: #666;
+  }
+
+  .email-section {
+    display: flex;
+    align-items: left;
+    
+  }
+
+  .comp-logo{
+    height: 100px;
+    width: 100px;
+    color: white;
+  }
+  
+  .email-section img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  .email-row{
+    display:block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .email-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .email-text {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .email-address {
+    color:white;
+    text-decoration: none;
+  }
+  
+  .email-address:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-para{
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+  .footer-logo-icon{
+    height: 40px;
+    width: 40px;
+  }
